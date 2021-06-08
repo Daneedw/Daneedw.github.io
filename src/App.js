@@ -7,6 +7,7 @@ import {
   HashRouter as Router,
   Switch,
   Route} from "react-router-dom";
+import AboutMe from "./pages/AboutMe";
 function App() {
   return (
     <>
@@ -19,6 +20,12 @@ function App() {
         <Projects>
           
         </Projects>
+
+        </Route>
+        <Route exact path="/AboutMe">
+        <AboutMe>
+          
+        </AboutMe>
 
         </Route>
         <Route exact path="/contact">

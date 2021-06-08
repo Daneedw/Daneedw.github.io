@@ -15,6 +15,12 @@ figure{
 img{
     width: 100%;
 }
+
+a:visited{
+    color: white;
+    text-decoration: none;
+
+}
 @media screen and (max-width: 560px) {
     .projects{
         flex-direction: column;
