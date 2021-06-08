@@ -1,0 +1,9 @@
+/* this footer is dependent on there being a main.. not exactly modular */
+.footer {
+  flex-shrink: 0;
+  height: 15%;
+  background-color: #134c7d;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}

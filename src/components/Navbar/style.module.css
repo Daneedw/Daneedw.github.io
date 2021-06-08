@@ -1,0 +1,47 @@
+.navParent {
+  margin: 20px;
+  padding: 10px 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navParent li {
+  padding:20px;
+  
+} 
+.navParent li a:visited,
+.navParent li a
+{
+  color:var(--secondary); 
+  text-decoration: none; 
+} 
+
+.navParent li a:hover,
+.navParent li a:focus {
+  color:var(--primary);  
+} 
+
+@media screen and (max-width: 780px) {
+    .navParent{
+        flex-direction: column;
+        justify-content: center;
+        
+      }
+      
+      .navParent li{
+        display: flex;
+        justify-content: center;
+            
+      }
+      
+    }
+    
+    @media screen and (max-width: 450px) {
+      .navParent {
+        justify-content: center;
+        flex-direction: column-reverse;
+      }
+
+      
+    }
