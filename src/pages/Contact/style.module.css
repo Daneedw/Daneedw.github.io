@@ -1,0 +1,34 @@
+
+
+.contact{
+    --contact-width: 30%;
+color: var(--secondary);
+display: flex;
+flex-direction: column;
+width:60vw;
+}
+.contact input, .contact textarea{
+    margin-top:1%;
+
+
+}
+.contact input{
+width: var(--contact-width);
+margin-bottom:1%;
+}
+
+.contact textarea{
+
+    height:30vh;
+}
+
+.contact button{
+    color: var(--secondary);
+    background-color: white;
+    margin-top:1%;
+    font-size: large;
+    border-width: .1px;
+    width: var(--contact-width);
+    border-color: var(--tertiary);
+    font-family: 'Fira Sans Condensed', sans-serif;
+}

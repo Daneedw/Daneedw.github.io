@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav>
       <ul className={styles.navParent}>
         {/* <li > <Link to="/">Home </Link></li> */}
-        <li > <Link to="/projects">Projects </Link></li>
+        <li > <Link to="/">Projects </Link></li>
         <li > <Link to="/contact">Contact </Link></li>
       </ul>
     </nav>

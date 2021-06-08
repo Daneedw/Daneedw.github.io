@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
+import Contact from "./pages/Contact"
 import {
   HashRouter as Router,
   Switch,
@@ -17,7 +18,11 @@ function App() {
         
 
         </Route>
-        <Route></Route>
+        <Route exact path="/contact">
+        <Contact>
+          
+        </Contact>
+        </Route>
 
 
         </Switch>
