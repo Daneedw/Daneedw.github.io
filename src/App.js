@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Contact from "./pages/Contact"
+import Projects from "./pages/Projects"
 import {
   HashRouter as Router,
   Switch,
@@ -15,7 +16,9 @@ function App() {
       <main>
         <Switch>
         <Route exact path="/">
-        
+        <Projects>
+          
+        </Projects>
 
         </Route>
         <Route exact path="/contact">

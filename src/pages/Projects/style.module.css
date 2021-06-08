@@ -1,0 +1,26 @@
+.projects{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 10%;
+    
+
+}
+
+figure{
+    width:300px;
+}
+img{
+    width: 100%;
+}
+@media screen and (max-width: 560px) {
+    .projects{
+        flex-direction: column;
+    
+    
+    }
+
+    
+}
